@@ -1,0 +1,16 @@
+{
+    "short_name": "SWP",
+    "name": "Sonolus Web Player",
+    "icons": [
+        {
+            "src": "./icons/favicon.ico"
+        },
+        {
+            "src": "./icons/favicon.png"
+        }
+    ],
+    "start_url": "./",
+    "display": "fullscreen",
+    "theme_color": "#000020",
+    "background_color": "#000020"
+}

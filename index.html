@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sonolus web player</title>
+    <link rel="icon" href="./icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="./icons/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <script type="module" crossorigin src="./assets/index.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index.css">
+  </head>
+  <body>
+
+
+    <div id="loading-cover" class="loading-cover">
+      <div class="loading-window">
+        <div class="circle"></div>
+        <div class="loading-text">LOADING...</div>
+      </div>
+    </div>
+    <div id="processing-cover" class="loading-cover" style="display: none;">
+      <div class="processing-window">
+        <canvas id="progress-window" width="520" height="30" style="display: none;"></canvas>
+        <div class="circle"></div>
+        <div class="loading-text">PROCESSING...</div>
+        
+      </div>
+    </div>
+    <div id="root"></div>
+    <div id="player-window" hidden>
+    </div>
+    <script type="text/javascript" src="./zlib/gunzip.min.js"></script>
+    <script type="text/javascript" src="./zlib/unzip.min.js"></script>
+    
+  </body>
+</html>
