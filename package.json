@@ -1,0 +1,21 @@
+{
+  "name": "sonolus-web-player",
+  "version": "1.0.0",
+  "description": "Sonolus Web Player - A web-based player for Sonolus rhythm game content",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'This is a static web application. Open index.html in a web browser or serve the files with a web server.'",
+    "build": "echo 'No build process required for this static application.'",
+    "dev": "echo 'This is a static web application. Open index.html in a web browser or serve the files with a web server.'"
+  },
+  "keywords": [
+    "sonolus",
+    "rhythm-game",
+    "web-player",
+    "music-game"
+  ],
+  "author": "J.J.X.",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
